@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
   root "pages#home"
-  get "about" =>"pages#about"
+  get "work" =>"pages#work"
+  get "skills" =>"pages#cs_skills"
+  get "honors" =>"pages#honors"
+  get "education" =>"pages#education"
+  get "projects" =>"pages#projects"
+  get "solo" =>"pages#solo"
+  get "group" =>"pages#group"
+  #get "resume" =>"/Users/deepanshujoshi/Desktop/DEEPANSHU JOSHI"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
